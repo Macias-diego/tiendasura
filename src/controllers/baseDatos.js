@@ -1,4 +1,4 @@
-//  QUEMAS (HARDCOREAR) LA BD
+//  QUEMAR (HARDCOREAR) LA BD
 let productos=[
 
     {
