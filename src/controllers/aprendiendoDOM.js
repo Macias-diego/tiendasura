@@ -1,4 +1,4 @@
-//PASOS PARA CONTROLAR UNA ETIQUETA
+//PASOS PARA CONTROLAR UNA ETIQUETA DESDE JS
 
 //1. CONTROLANDO EL CONTENIO
 let etiquetaTitulo=document.getElementById("titulo")
@@ -10,7 +10,7 @@ etiquetaTitulo.textContent="boss pague pues hptaaaaaaaaa"
 //1.2 MANIPULANDO EL SRC (FUENTE)
 etiquetaImagen.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14mDPv37RuJp7yHvwo0jE5TMZoGUZPVLsCQ&usqp=CAU"
 
-//*CONTRAOLANDO EL DIESEÑO
+//2. CONTRAOLANDO EL DIESEÑO
 let parrafo=document.getElementById("parrafo")
 parrafo.textContent="fuck your self"
 

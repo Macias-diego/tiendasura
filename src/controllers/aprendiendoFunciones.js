@@ -1,6 +1,7 @@
 //CREANDO FUNCIONES
 //declarando la seccion
 
+
 function sumarDosNumeros(numero1,numero2){
 
     let suma=numero1+numero2

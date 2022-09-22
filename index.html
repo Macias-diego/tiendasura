@@ -1,100 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda SURA</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Just+Another+Hand&family=Kalam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles/estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda SURA</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/estilos.css">
 </head>
-<body class="fuente">
 
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark animate__animated animate__rubberBand">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-     
-      <section class="banner text-white">
-        <h1>ASTRAL SLEEP MEDELLIN</h1>
-      </section>
-      <section>
-        <div class="container mt-5">
-          <div class="row">
+<body class="fuente bg-dark">
 
-            <div class="col-12 col-md-8">
-              <img src="./assets/img/fotoregistro.png" alt="" class="img-fluid w-100">
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark animate__animated animate__rubberBand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Astral Art</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./src/views/tienda.html">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#REGISTRATE">Sign Up</a>
               
-            <div class="col-12 col-md-4 align-self-center">
-              <h3>BIENVENIDO</h3>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam adipisci minima corporis, officiis, dignissimos molestias ipsa corrupti odio, quis laborum soluta beatae itaque quae ut amet nisi possimus officia.</P>
-              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="bi bi-caret-right-fill"></i>REGISTRATE</button>
-            </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a id="usuario" class="nav-link fs-5" href="#">USUARIO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="botonsalir" class="nav-link fs-5" href="#">SALIR
+                <i class="bi bi-box-arrow-left"></i>
+              </a>
+            </li>
+          </ul>
 
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section class="banner text-white">
+      <h1 id="text1" class="text-center w-100">ASTRAL ART MEDELLIN</h1>
+    </section>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+
+          <div class="col-12 col-md-8">
+            <img src="./assets/img/fotoregistro.png" alt="" class="img-fluid w-100">
+          </div>
+
+          <div class="col-12 col-md-4 align-self-center text-white">
+            <h3 id="REGISTRATE">BIENVENIDO</h3>
+            <P class="fs-3">Algunos artistas han mirado, a lo largo de la historia, hacia los abismos más profundos del
+              alma humana. Allí surgió el arte oscuro, producto de los miedos, de lo misterioso e incluso de lo
+              terrible... </P>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"><i class="bi bi-caret-right-fill"></i>REGISTRATE</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">REGISTRO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+           <form id="formulario">
+            <div class="mb-3">
+              <label class="form-label">correo</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">contraseña</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary" id="botonRegistro">Registrate</button>
+
+           </form>
+          </div>
+          
+
+          
+        </div>
+      </div>
+    </section>
+    </section>
+  </main>
+  <footer class="text-center text-white mt-5" style="background-color: #45637d;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Iframe -->
+      <section class="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9">
+              <iframe  width="684" height="385" src="https://www.youtube.com/embed/iGSXW-OQ0HE" title="Zdzisław Beksiński / Paintings. 1984-1989. Arte Oscuro, Surrealismo."  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </section>
-      <section>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div>
-              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-            </div>
-            <div class="dropdown mt-3">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                Dropdown button
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
+      <!-- Section: Iframe -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">DIEGO MACIAS</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-    </footer>
-   
-    
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="./src/services/conexionFireBase.js" type="module"></script>
+  <script src="./src/services/registro.js" type="module"></script>
+  <script src="./src/services/observadorEstados.js" type="module"></script>
+  <script src="./src/services/logout.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./src/views/tienda.html"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+
 </html>
